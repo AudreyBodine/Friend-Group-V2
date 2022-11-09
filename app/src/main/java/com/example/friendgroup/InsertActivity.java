@@ -33,7 +33,8 @@ public class InsertActivity extends AppCompatActivity {
         String emailString = emailET.getText().toString();
 
         // Insert into database
-            Friends friend = new Friends(0, fName, lName, emailString);
+            String email = String.valueOf(emailString);
+            Friends friend = new Friends(0, fName, lName, email);
             dbManager.insert(friend);
             Toast.makeText(this, "Friends Added", Toast.LENGTH_SHORT).show();
 

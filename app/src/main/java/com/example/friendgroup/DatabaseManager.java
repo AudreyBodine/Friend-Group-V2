@@ -3,6 +3,7 @@ package com.example.friendgroup;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.widget.EditText;
 
 public class DatabaseManager extends SQLiteOpenHelper {
 
@@ -21,7 +22,7 @@ public class DatabaseManager extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         // build SQL create statement
-        String sqlCreate = "create table " + TABLE_FRIENDS + "( " + ID;
+        String sqlCreate = "create table " + TABLE_FRIENDS + " (" + ID;
         sqlCreate += " integer primary key autoincrement, " + FIRST_NAME;
         sqlCreate += " text, " + LAST_NAME;
         sqlCreate += " text, " + EMAIL + " )";

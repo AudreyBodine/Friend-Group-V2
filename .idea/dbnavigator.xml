@@ -28,20 +28,20 @@
     <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="49267375-2eca-4e3a-b2a2-dc49834dd6d1">
-      <console name="friendsGroupDB" type="STANDARD" schema="main" session="Main" />
+    <connection id="b17bc7c6-1242-4b11-800b-6db058f83606">
+      <console name="friendsDB" type="STANDARD" schema="main" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files>
-      <object connection-id="49267375-2eca-4e3a-b2a2-dc49834dd6d1" object-ref="schemas/main/tables/friend" />
+      <object connection-id="b17bc7c6-1242-4b11-800b-6db058f83606" object-ref="schemas/main/tables/friend" />
     </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
-    <connection id="49267375-2eca-4e3a-b2a2-dc49834dd6d1" />
+    <connection id="b17bc7c6-1242-4b11-800b-6db058f83606" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="49267375-2eca-4e3a-b2a2-dc49834dd6d1" dataset="main.friend" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="b17bc7c6-1242-4b11-800b-6db058f83606" dataset="main.friend" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
@@ -72,9 +72,9 @@
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="49267375-2eca-4e3a-b2a2-dc49834dd6d1" active="true" signed="true">
+      <connection id="b17bc7c6-1242-4b11-800b-6db058f83606" active="true" signed="true">
         <database>
-          <name value="friendsGroupDB" />
+          <name value="friendsDB" />
           <description value="" />
           <database-type value="SQLITE" />
           <config-type value="BASIC" />
@@ -87,7 +87,7 @@
           <port value="" />
           <database value="" />
           <files>
-            <file path="$PROJECT_DIR$/../../../friendsGroupDB" schema="main" />
+            <file path="$PROJECT_DIR$/../../../friendsDB" schema="main" />
           </files>
           <type value="NONE" />
           <user value="" />

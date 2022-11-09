@@ -43,6 +43,7 @@ public class Friends {
     }
 
     public String toString(){
-        return id + "; " + firstName + lastName + "; " + email;
+        return id + "; " + firstName + "; " + lastName + "; " + email;
     }
+
 }
