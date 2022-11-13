@@ -27,14 +27,14 @@ public class InsertActivity extends AppCompatActivity {
         Log.w("InsertActivity", "Insert Button Pushed");
         EditText firstET = findViewById(R.id.first_nameET);
         EditText lastET = findViewById(R.id.last_nameET);
-        EditText emailET = findViewById(R.id.emailET);
+        EditText emailET = findViewById(R.id.et_1);
         String fName = firstET.getText().toString();
         String lName = lastET.getText().toString();
         String emailString = emailET.getText().toString();
 
         // Insert into database
-            String email = String.valueOf(emailString);
-            Friends friend = new Friends(0, fName, lName, email);
+            //String email = String.valueOf(emailString);
+            Friends friend = new Friends(0, fName, lName, emailString);
             dbManager.insert(friend);
             Toast.makeText(this, "Friends Added", Toast.LENGTH_SHORT).show();
 
