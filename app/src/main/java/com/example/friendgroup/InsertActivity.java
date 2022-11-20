@@ -36,7 +36,7 @@ public class InsertActivity extends AppCompatActivity {
             //String email = String.valueOf(emailString);
             Friends friend = new Friends(0, fName, lName, emailString);
             dbManager.insert(friend);
-            Toast.makeText(this, "Friends Added", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Friend Added", Toast.LENGTH_SHORT).show();
 
         // Clear data
         firstET.setText("");

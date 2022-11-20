@@ -46,4 +46,7 @@ public class Friends {
         return id + "; " + firstName + "; " + lastName + "; " + email;
     }
 
+    public int getId() {
+        return id;
+    }
 }

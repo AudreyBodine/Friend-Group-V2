@@ -28,20 +28,16 @@
     <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="b17bc7c6-1242-4b11-800b-6db058f83606">
-      <console name="friendsDB" type="STANDARD" schema="main" session="Main" />
+    <connection id="4bc6877d-74af-4a84-8033-8acd17dd2fe1">
+      <console name="friendGroupDB" type="STANDARD" schema="main" session="Main"><![CDATA[select *
+from friend]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="b17bc7c6-1242-4b11-800b-6db058f83606" object-ref="schemas/main/tables/friend" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
-    <connection id="b17bc7c6-1242-4b11-800b-6db058f83606" />
-  </component>
-  <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="b17bc7c6-1242-4b11-800b-6db058f83606" dataset="main.friend" active-filter-id="EMPTY_FILTER" />
+    <connection id="4bc6877d-74af-4a84-8033-8acd17dd2fe1" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
@@ -72,9 +68,9 @@
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="b17bc7c6-1242-4b11-800b-6db058f83606" active="true" signed="true">
+      <connection id="4bc6877d-74af-4a84-8033-8acd17dd2fe1" active="true" signed="true">
         <database>
-          <name value="friendsDB" />
+          <name value="friendGroupDB" />
           <description value="" />
           <database-type value="SQLITE" />
           <config-type value="BASIC" />
@@ -87,7 +83,7 @@
           <port value="" />
           <database value="" />
           <files>
-            <file path="$PROJECT_DIR$/../../../friendsDB" schema="main" />
+            <file path="$PROJECT_DIR$/../../../../friendGroupDB" schema="main" />
           </files>
           <type value="NONE" />
           <user value="" />
