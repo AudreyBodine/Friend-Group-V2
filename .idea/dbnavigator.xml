@@ -28,7 +28,7 @@
     <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="4bc6877d-74af-4a84-8033-8acd17dd2fe1">
+    <connection id="b22cfc6d-a35f-444d-a178-ec061248477d">
       <console name="friendGroupDB" type="STANDARD" schema="main" session="Main"><![CDATA[select *
 from friend]]></console>
     </connection>
@@ -37,7 +37,7 @@ from friend]]></console>
     <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
-    <connection id="4bc6877d-74af-4a84-8033-8acd17dd2fe1" />
+    <connection id="b22cfc6d-a35f-444d-a178-ec061248477d" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
@@ -68,7 +68,7 @@ from friend]]></console>
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="4bc6877d-74af-4a84-8033-8acd17dd2fe1" active="true" signed="true">
+      <connection id="b22cfc6d-a35f-444d-a178-ec061248477d" active="true" signed="true">
         <database>
           <name value="friendGroupDB" />
           <description value="" />

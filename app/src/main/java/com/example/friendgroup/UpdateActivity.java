@@ -99,23 +99,28 @@ public class UpdateActivity extends AppCompatActivity {
     }
 
     private class ButtonHandler implements View.OnClickListener {
-        public void onClick( View v ) {
+        public void onClick(View v) {
             // retrieve name and email of the friend
-            int friendId = v.getId( );
-            EditText firstNameET = findViewById( 10 * friendId );
-            EditText lastNameET = findViewById( 10 * friendId + 1);
-            EditText emailET = findViewById( 10 * friendId + 2);
-            String firstName = firstNameET.getText( ).toString( );
-            String lastName = lastNameET.getText( ).toString( );
-            String email = emailET.getText( ).toString( );
+            int friendId = v.getId();
+            EditText firstNameET = findViewById(10 * friendId);
+            EditText lastNameET = findViewById(10 * friendId + 1);
+            EditText emailET = findViewById(10 * friendId + 2);
+            String firstName = firstNameET.getText().toString();
+            String lastName = lastNameET.getText().toString();
+            String emailString = emailET.getText().toString();
 
             // update friend in database
-            dbManager.updateById( friendId, firstName, lastName, email );
-            Toast.makeText( UpdateActivity.this, "Friend updated",
-                    Toast.LENGTH_SHORT ).show( );
+            try {
+                dbManager.updateById( friendId, firstName, lastName, emailString );
+                Toast.makeText(UpdateActivity.this, "Friend updated",
+                        Toast.LENGTH_SHORT).show();
 
-            // update screen
-            updateView( );
+                // update screen
+                updateView();
+            } catch (NumberFormatException nfe) {
+                Toast.makeText(UpdateActivity.this,
+                        "Format error", Toast.LENGTH_LONG).show();
+            }
         }
     }
 }

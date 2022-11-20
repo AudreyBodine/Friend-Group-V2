@@ -14,8 +14,8 @@ public class DatabaseManager extends SQLiteOpenHelper {
     private static final int DATABASE_VERSION = 1;
     private static final String TABLE_FRIENDS = "friend";
     private static final String ID = "id";
-    private static final String FIRST_NAME = "first name";
-    private static final String LAST_NAME = "last name";
+    private static final String FIRST_NAME = "first";
+    private static final String LAST_NAME = "last";
     private static final String EMAIL = "email";
 
     public DatabaseManager(Context context)
